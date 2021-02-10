@@ -1,0 +1,536 @@
+@font-face {
+  font-family: 'Proxima Nova Regular';
+  src: url('/assets/fonts/ProximaNova-Regular.eot');
+  src: url('/assets/fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+  url('/assets/fonts/ProximaNova-Regular.woff') format('woff'),
+  url('/assets/fonts/ProximaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,html{
+  width: 100%;
+  height: 100%;
+}
+.header{
+  padding-top: 33px;
+  padding-bottom: 35px;
+
+}
+.header-link{
+  margin-right: 34px;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+}
+.header-title{
+  margin-right: 257px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #160647;
+  display: block;
+}
+.header-title:before{
+  content: ' ';
+  background: url("/assets/img/logo.svg");
+  width: 15px;
+  height: 15px;
+  margin-left: -28px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 4px;
+
+}
+.login-link{
+  margin-right: 31px;
+  text-decoration: none;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 500;
+  color: #4E5983;
+  font-size: 16px;
+  line-height: 19px;
+}
+.navigation{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+.Regular{
+  font-weight: 400;
+}
+.navigation-item{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #4E5983;
+  font-size: 16px;
+  line-height: 19px;
+}
+.navigation-link{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #4E5983;
+}
+.exchange{
+  background: linear-gradient(140.59deg, #562EC2 29.59%, #A07EFE 73.59%);
+  /*border-radius: 17px;*/
+  position: absolute;
+  width: 100%;
+  height: 755px;
+
+}
+.exchange-title {
+  text-align: center;
+  padding-top: 113px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 111.9%;
+  color: #ffffff;
+
+}
+.exchange-description{
+  text-align: center;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 23px;
+  color: #ffffff;
+  margin-bottom: 54px;
+}
+.exchange-card{
+  background: #FFFFFF;
+  opacity: 0.8;
+  border: 4px solid #F7F8FD;
+  box-sizing: border-box;
+  border-radius: 26px;
+  height: 284px;
+
+}
+.exchange-card-title{
+  padding-top: 78px;
+  padding-left: 107px;
+  padding-bottom: 185px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #4E5983;
+}
+.exchange-card-subtitle{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+
+  color: #4E5983;
+
+  opacity: 0.5;
+
+  display: block;
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+.subtitle-exchange{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+
+  color: #4E5983;
+
+  opacity: 0.5;
+}
+.price-light{
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #4E5983;
+
+  opacity: 0.5;
+}
+.price-normal{
+
+  font-family: Proxima Nova;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.015em;
+  color: #094067;
+}
+.price-light:after{
+  content: ' ';
+  background: #27AE60;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  position: absolute;
+  z-index: 100;
+  margin-top: -5px;
+  margin-left: 95px;
+}
+.button-change{
+  margin-top: 151px;
+  margin-bottom: 78px;
+  cursor: pointer;
+  width: 157px;
+  height: 55px;
+  color: white;
+  background: linear-gradient(140.59deg, #562EC2 29.59%, #A07EFE 73.59%);
+  opacity: 0.8;
+  border-radius: 9px;
+
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: bold;
+
+  font-size: 14px;
+}
+.advantages-title{
+  margin-bottom: 32px;
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+
+
+  color: #4E5983;
+}
+.advantages-description{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 166.5%;
+  /* or 30px */
+
+
+  color: #4E5983;
+  margin-bottom: 119px;
+  opacity: 0.7;
+}
+.advantages-img{
+  height: 179px;
+}
+.advantages{
+  margin-top: 840px;
+}
+.service-title{
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 132.4%;
+  /* or 46px */
+
+
+  color: #160647;
+
+}
+.service-description{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 166.5%;
+  /* or 30px */
+
+
+  color: #4E5983;
+
+  opacity: 0.7;
+  margin-bottom: 230px;
+}
+.name-currency{
+  display: block;
+  margin-bottom: 2px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #A4AABF;
+}
+.value-currency{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20.5714px;
+  line-height: 155.5%;
+  /* identical to box height, or 32px */
+  display: block;
+
+  color: #160647;
+
+}
+.value-title{
+  margin-bottom: 59px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 111.9%;
+  /* or 39px */
+
+  text-align: center;
+
+  color: #160647;
+}
+.mb-85{
+  margin-bottom: 85px;
+}
+.YandexRUB:before{
+  content: ' ';
+  background: url("/assets/img/value/YandexRub.svg");
+  width: 22.28px;
+  height: 23.76px;
+  margin-left: -46px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 2px;
+}
+.Ethereum:before{
+  content: ' ';
+  background: url("/assets/img/value/EthereumETH.svg");
+  width: 22.28px;
+  height: 23.76px;
+  margin-left: -46px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 2px;
+}
+.BitcoinBTC:before{
+  content: ' ';
+  background: url("/assets/img/value/BitcoinBTC.svg");
+  width: 22.28px;
+  height: 23.76px;
+  margin-left: -46px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 2px;
+}
+.SberRUB:before{
+  content: ' ';
+  background: url("/assets/img/value/SberRUB.svg");
+  width: 22.28px;
+  height: 23.76px;
+  margin-left: -46px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 2px;
+}
+.PRIVATEUAH:before{
+  content: ' ';
+  background: url("/assets/img/value/PrivetUAG.svg");
+  width: 22.28px;
+  height: 23.76px;
+  margin-left: -46px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 2px;
+}
+.PayPalUSD:before{
+  content: ' ';
+  background: url("/assets/img/value/PaypalUSD.svg") no-repeat;
+  width: 22.28px;
+  height: 23.76px;
+  margin-left: -46px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 2px;
+}
+.PMUSD:before{
+  content: ' ';
+  background: url("/assets/img/value/PM.svg") no-repeat;
+  width: 22.28px;
+  height: 23.76px;
+  margin-left: -46px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 2px;
+}
+.QIWURUB:before{
+  content: ' ';
+  background: url("/assets/img/value/QiwiRUB.svg") no-repeat;
+  width: 30px;
+  height: 30px;
+  margin-left: -46px;
+  position: absolute;
+  z-index: 100;
+  margin-top: 2px;
+}
+.mb-160{
+  margin-bottom: 160px;
+}
+.reviews-title{
+  margin-bottom: 115px;
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 132.4%;
+  /* or 46px */
+
+
+  color: #160647;
+}
+.reviews-description{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 166%;
+  /* or 30px */
+
+
+  color: #4E5983;
+
+  opacity: 0.7;
+  margin-bottom: 58px;
+}
+.reviews-name{
+
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 155.5%;
+  /* identical to box height, or 31px */
+
+
+  color: #160647;
+}
+.reviews-date{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+.reviews-date{
+  margin-left: 30px;
+}
+.h-210{
+  min-height: 210px;
+}
+.mb-88{
+  margin-bottom: 88px!important;
+}
+.mb-140{
+  margin-bottom: 140px;
+}
+.exchange-bg{
+  background: linear-gradient(140.59deg, #562EC2 29.59%, #A07EFE 73.59%);
+  opacity: 0.8;
+  border-radius: 17px;
+  width: 1238px;
+  height: 446px;
+}
+.img-exchange{
+  height: 446px;
+}
+.title-exchange{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 132.4%;
+  /* or 46px */
+
+
+  color: #FFFFFF;
+}
+.exchange-subtitle{
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 166.5%;
+  /* identical to box height, or 30px */
+  margin-bottom: 49px;
+
+  color: #FFFFFF;
+
+  opacity: 0.7;
+}
+.exchage-button{
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15.9618px;
+  line-height: 19px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #9F7DFD;
+  padding: 25px 35px;
+  opacity: 0.8;
+  border-radius: 10.2611px;
+  border: none;
+  cursor: pointer;
+}
+.mb-140{
+  margin-bottom: 140px;
+}
+.footer{
+  padding-left: 100px;
+  padding-bottom: 123px;
+}
+.footer-subtitle{
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #838BA8;
+  margin-top: 19px;
+  display: block;
+}
+.navigation-link-2{
+
+  font-family: Rubik;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-decoration: none;
+
+  color: #4E5983;
+}
+.social-image{
+  margin-right: 40px;
+}
